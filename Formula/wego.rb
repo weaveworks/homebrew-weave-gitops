@@ -6,8 +6,6 @@ class Wego < Formula
   sha256 "f93633ba0fea0331354ebefcca307c121939d2a02ce53cc7fec85688da25d7c2"
   license "MPL-2.0 License"
 
-  # depends_on "cmake" => :build
-
   def install
     bin.install "wego"
   end
